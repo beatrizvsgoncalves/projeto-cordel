@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
 
 body {
+  font-size: 1em;
   margin: 0;
   padding: 0;
-  font-size: 1em;
 }
 
 .pd-2 {

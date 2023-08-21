@@ -62,7 +62,7 @@ section#img2 {
 }
 
 section.backg {
-  background: black right center / cover no-repeat fixed;
+  background: black center center / cover no-repeat fixed;
   box-shadow: inset 5px 5px 10px 5px #00000040;
   padding: 1rem;
 }

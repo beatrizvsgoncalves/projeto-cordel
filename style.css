@@ -62,7 +62,7 @@ section#img2 {
 }
 
 section.backg {
-  background: black center center / cover no-repeat fixed;
+  background: black center center/cover no-repeat fixed;
   box-shadow: inset 5px 5px 10px 5px #00000040;
   padding: 1rem;
 }
@@ -71,6 +71,7 @@ section.backtext {
   background-color: #00000080;
   color: #ffffff;
   padding: 0;
+  text-shadow: 1px 1px #000000;
   width: fit-content;
 }
 

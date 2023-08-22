@@ -51,7 +51,7 @@ section {
 
 section.imagem {
   background: #444444 center center / cover no-repeat fixed;
-  box-shadow: inset 5px 5px 10px 5px #00000040;
+  box-shadow: inset 6px 6px 13px 5px #00000040;
   padding: 2rem;
 }
 

@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
 
-body {
-  font-size: 1em;
+* {
   margin: 0;
   padding: 0;
 }
 
-.pd-2 {
-  padding-bottom: 2rem;
+body {
+  font-size: 1em;
+  background-color: #ffffff;
+}
+
+header, footer, a {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
 }
 
 a {
@@ -17,12 +23,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-header, footer, a {
-  background-color: #000000;
-  color: #ffffff;
-  text-align: center;
 }
 
 header {
@@ -42,15 +42,25 @@ header p {
   margin: -0.1em;
 }
 
-main {
-  background-color: #ffffff;
-}
-
 section {
   font-family: 'Sriracha', cursive;
   font-size: 3.5vw;
   line-height: 2em;
   padding: 2rem 2rem 4rem;
+}
+
+section.imagem {
+  background: #444444 center center / cover no-repeat fixed;
+  box-shadow: inset 5px 5px 10px 5px #00000040;
+  padding: 2rem;
+}
+
+section.text {
+  background-color: #00000080;
+  color: #ffffff;
+  padding: 5px;
+  text-shadow: 1px 1px #000000;
+  width: fit-content;
 }
 
 section#img1 {
@@ -61,22 +71,12 @@ section#img2 {
   background-image: url('imagens/background002.jpg');
 }
 
-section.backg {
-  background: black center center / cover no-repeat fixed;
-  box-shadow: inset 5px 5px 10px 5px #00000040;
-  padding: 1rem;
-}
-
-section.backtext {
-  background-color: #00000080;
-  color: #ffffff;
-  padding: 0;
-  text-shadow: 1px 1px #000000;
-  width: fit-content;
-}
-
 footer p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: .5rem;
+}
+
+.pd-2 {
+  padding-bottom: 2rem;
 }
